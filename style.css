@@ -1,0 +1,86 @@
+*{
+    margin : 0;
+    padding: 0;
+    
+}
+body{
+    background-color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    margin: 0 34px;
+    padding: 8px;
+}
+.header_nav{
+    display : flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.header_nav_logo{
+    width: 240px;
+}
+.header_nav_items{
+    display: flex;
+    gap:25px;
+    align-items: center;
+    
+    
+}
+.header_nav_item a{
+    color:orange;
+    text-decoration: none;
+    font-size: 22px;
+}
+.header_nav_item a:hover{
+    color:rgb(58, 209, 139);
+    font-size: 30px;
+    text-decoration: underline;
+
+
+}
+.hero{
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom:65px;
+
+}
+.main_text{
+    width:700px;
+}
+.main_text_heading{
+    font-size: 42px;
+    color:rgb(126, 108, 108);
+
+
+}
+.main_img{
+    width:700px;
+    border: 3px dashed rgb(181, 178, 220);
+}
+.showcase{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+
+}
+.showcase_cards{
+    color :rgb(117, 104, 104);
+    margin-top: 7px;
+    font-weight:400;
+    text-align: center;
+    
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding: 16px;
+   
+}
+
+ 
+
